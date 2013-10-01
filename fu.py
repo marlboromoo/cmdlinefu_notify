@@ -4,6 +4,7 @@
 import requests
 import notify2
 import json
+import random
 
 URL = 'http://www.commandlinefu.com/commands/browse/json'
 
@@ -20,7 +21,7 @@ def main():
     """
     cmds = get_cmds()
     if cmds:
-        cmd = cmds.pop(0)
+        cmd = random.choice(cmds)
         notify2.init('cmdline-fu')
         n = notify2.Notification(
             summary = cmd['summary'],
