@@ -38,8 +38,8 @@ DISPLAY=:0
 ## License
 Released under the [MIT License] [].
 
-    [requests]: http://docs.python-requests.org/en/latest/ "Requests"
-    [pynotify2]: https://bitbucket.org/takluyver/pynotify2 "pynotify2"
-    [MIT License]: http://opensource.org/licenses/MIT   "MIT License"
+  [requests]: http://docs.python-requests.org/en/latest/ "Requests"
+  [pynotify2]: https://bitbucket.org/takluyver/pynotify2 "pynotify2"
+  [MIT License]: http://opensource.org/licenses/MIT   "MIT License"
 
 
